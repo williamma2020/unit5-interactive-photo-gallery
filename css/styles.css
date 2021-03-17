@@ -1,0 +1,21 @@
+
+/* ----primary style---- */
+
+input{
+    display:grid;
+    height:3em;
+    width:40%;
+    margin:auto;
+    margin-bottom: 2em;
+    
+}
+
+
+ /* ----grid----- */
+ .gallery{
+    max-width:900px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); 
+    grid-gap:20px;
+    margin:auto;
+ }
